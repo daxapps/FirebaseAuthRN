@@ -45,7 +45,6 @@ export default class SigninScreen extends React.Component {
       >
         <View style={styles.logoContainer}>
           <Image source={require("../assets/logo.png")} />
-          <Text>LearnCodeOnline.in</Text>
         </View>
         <Form style={styles.form}>
           <Item floatingLabel>
@@ -82,12 +81,13 @@ export default class SigninScreen extends React.Component {
         </Form>
         <View style={styles.footer}>
           <Text>OR</Text>
+          <Text></Text>
           <TouchableOpacity
             onPress={() => {
               this.props.navigation.navigate("SignUp");
             }}
           >
-            <Text>Create a new Account ?</Text>
+            <Text>Create New Account?</Text>
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>

@@ -44,7 +44,6 @@ export default class HomeScreen extends React.Component {
       <View style={styles.container}>
         <View style={styles.logoContainer}>
           <Image source={require("../assets/logo.png")} />
-          <Text>LearnCodeOnline.in</Text>
         </View>
         <View style={styles.userDetails}>
           <Text> Hi {this.state.name},</Text>

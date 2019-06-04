@@ -51,7 +51,6 @@ export default class SignupScreen extends React.Component {
       >
         <View style={styles.logoContainer}>
           <Image source={require("../assets/logo.png")} />
-          <Text>LearnCodeOnline.in</Text>
         </View>
         <Form style={styles.form}>
           <Item floatingLabel>
@@ -104,7 +103,7 @@ export default class SignupScreen extends React.Component {
               this.props.navigation.navigate("SignIn");
             }}
           >
-            <Text>already having an account ?</Text>
+            <Text>Already Have an Account?</Text>
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
